@@ -23,6 +23,6 @@ export class UsersRepository {
   }
 
   async findOneAndUpdate(userFilterQuery: FilterQuery<User>, user: Partial<User>): Promise<User> {
-    return this.userModel.findOneAndUpdate(userFilterQuery, user) 
+    return this.userModel.findOneAndUpdate(userFilterQuery, user, { new: true }) 
   }
 }
