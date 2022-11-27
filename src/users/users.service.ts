@@ -2,7 +2,7 @@ import { Injectable } from "@nestjs/common";
 import { v4 as uuidv4 } from "uuid"
 import { UsersRepository } from "./users.repository";
 
-import { User } from "./schemas/users.schema"
+import { User } from "./schemas/user.schema"
 import { UpdateUserDto } from "./dto/update-user.dto";
 
 
