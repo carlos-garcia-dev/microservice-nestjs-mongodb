@@ -5,7 +5,7 @@
 </div>
 <div align="center">
   <h1>Microservice Nest MongoDB</h1>
-  <strong>Microservice structure with NodeJS, MongoDB and TypeScript</strong>
+  <strong>Microservice for a User with NodeJS, MongoDB and TypeScript</strong>
 </div>
 
 </br>
