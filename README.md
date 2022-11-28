@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Project introduction.
+Basic microservice management 
 
 ## Technologies
 
@@ -47,7 +47,13 @@ Project Description
 
 ![Microservice Structure](https://github.com/carlos-garcia-dev/nestjs-mongo-db/blob/main/images/Microservice.png)
 
-Each module was focused in one area of the language.
+The management and interaction of the service *User* was basically structured with this archives.
+
+- **Controller**:
+- **Module**:
+- **Repository**:
+- **Service**:
+- **DTO**:
 
 ### Server - Endpoints
 
@@ -58,9 +64,9 @@ Each module was focused in one area of the language.
 | **Patch** | /users/:id | Update an specific user.               |
 | **Post**  | /users/    | Send the request to create a new user. |
 
-### Server
+### Server - Structure
 
-Description of the server functionalities.
+Folder and archive structure
 
 ```bash
   │ 
@@ -89,6 +95,8 @@ Description of the server functionalities.
   ├── tsconfig.build.json
   └── tsconfig.json
 ```
+
+---
 
 ## Links
 
