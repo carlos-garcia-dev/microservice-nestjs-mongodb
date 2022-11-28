@@ -45,7 +45,7 @@ Project Description
 
 ## Microservice
 
-<!-- [Image]() -->
+![Microservice Structure](https://github.com/carlos-garcia-dev/nestjs-mongo-db/blob/main/images/Microservice.png)
 
 Each module was focused in one area of the language.
 
