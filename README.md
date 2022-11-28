@@ -49,7 +49,7 @@ In future projects, I´m planning to practice interaction between microservices 
 
 ![Microservice Structure](https://github.com/carlos-garcia-dev/nestjs-mongo-db/blob/main/images/Microservice.png)
 
-The management and interaction of the service _User_ was basically structured with this archives.
+The management and interaction of the service **User** was basically structured with this archives.
 
 - **Controller**: Manages the data of each entity.
 - **Module**: Groups functions for server.
