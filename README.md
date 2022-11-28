@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Basic microservice management 
+Basic _microservice_ developed with TypeScript and Nest.js that interacts with a MongoDB NoSQL server.
 
 ## Technologies
 
@@ -21,18 +21,20 @@ Basic microservice management
     <img align="left"   style="float: left; margin-right: 2px;" alt="NodeJS" width="30px" src="https://github.com/carlos-garcia-dev/carlos-garcia-dev-images/blob/master/images/png/04.NodeJS.png" />
     <img align="left"   style="float: left; margin-right: 2px;" alt="NestJS" width="30px" src="https://nestjs.com/img/logo-small.svg" />
     <img align="left"   style="float: left; margin-right: 2px;" alt="MongoDB" width="30px" src="https://github.com/carlos-garcia-dev/carlos-garcia-dev-images/blob/master/images/png/01.MongoDB.png" />
+    <img align="left"   style="float: left; margin-right: 2px;" alt="Postman" width="30px" src="https://github.com/carlos-garcia-dev/carlos-garcia-dev-images/blob/master/images/png/22.Postman.png" />
     <img align="left"   style="float: left; margin-right: 2px;" alt="GitHub" width="30px" src="https://github.com/carlos-garcia-dev/carlos-garcia-dev-images/blob/master/images/png/18.GitHub.png" />
     <img align="left"   style="float: left; margin-right: 2px;" alt="Git" width="30px" src="https://github.com/carlos-garcia-dev/carlos-garcia-dev-images/blob/master/images/png/17.Git.png" />
-    <img align="left"   style="float: left; margin-right: 2px;" alt="Postman" width="30px" src="https://github.com/carlos-garcia-dev/carlos-garcia-dev-images/blob/master/images/png/22.Postman.png" />
     <img align="left"   style="float: left; margin-right: 2px;" alt="Visual Studio Code" width="30px" src="https://github.com/carlos-garcia-dev/carlos-garcia-dev-images/blob/master/images/png/19.VSCode.png" />
     <img align="left"   style="float: left; margin-right: 4px;" alt="Terminal" width="30px" src="https://github.com/carlos-garcia-dev/carlos-garcia-dev-images/blob/master/images/png/20.Terminal.png" />
 </section>
 
 </br>
 
-## Project
+## Microservice
 
-Project Description
+The main goal of the project was to practice this architecture pattern with a new framework, NestJS. The main benefits of this structure is that helps to maintain services clustered which makes them more scalable, mantenable, and secure.
+
+In future projects, I´m planning to practice interaction between microservices with a message broker. Authentication was not actually implemented but could be developed with the same file structure the main purpose of the project.
 
 </br>
 
@@ -43,17 +45,17 @@ Project Description
   - [Built With](#built-with)
 </details> -->
 
-## Microservice
+## Microservice - Explanation
 
 ![Microservice Structure](https://github.com/carlos-garcia-dev/nestjs-mongo-db/blob/main/images/Microservice.png)
 
-The management and interaction of the service *User* was basically structured with this archives.
+The management and interaction of the service _User_ was basically structured with this archives.
 
-- **Controller**:
-- **Module**:
-- **Repository**:
-- **Service**:
-- **DTO**:
+- **Controller**: Manages the data of each entity.
+- **Module**: Groups functions for server.
+- **Repository**: Injects each method.
+- **Service**: Enables the interaction of functions with the Database.
+- **DTO**: Data Transfer Object subsystem.
 
 ### Server - Endpoints
 
@@ -66,7 +68,7 @@ The management and interaction of the service *User* was basically structured wi
 
 ### Server - Structure
 
-Folder and archive structure
+Folder structure for the development of the _user_ service.
 
 ```bash
   │ 
